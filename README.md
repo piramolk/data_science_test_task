@@ -1,2 +1,3 @@
-# data_science_test_task
+# Data Science: test task
+
 Test task for geospatial focussed Data Science position
