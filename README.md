@@ -46,7 +46,7 @@ If we only use the property/parcel dateset, our prediction model will not be ver
 
 ## The problem 
 
-The challenge, and task for this assignment, is to combine the features of the building dataset with the property/parcel dataset. For that purpose, we need to assign buildings to properties/parcels based on their geospatial relationship. There are quite a few corner cases which makes complicates the task.
+The challenge, and task for this assignment, is to combine the features of the building dataset with the property/parcel dataset. For that purpose, we need to assign buildings to properties/parcels based on their geospatial relationship. There are quite a few corner cases which complicates the task.
 
 ### Corner cases
 
