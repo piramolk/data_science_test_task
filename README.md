@@ -11,7 +11,7 @@ Consider the following use case with two datasets:
  1. A building dataset from open-street-map; and
  2. A property/parcel dataset from the UK government.
 
-The building dateset contains the foot-print of buildings, as a geometry, and certain attributes like the name of the building and what type of building it is (residential, commercial, etc.). The property/parcel dataset contains the foot-print of the property, address, rates and taxis and the dedicated uses of the property (residential, commercial, light-industrial, heavy industrial, etc.)
+The building dateset contains the foot-print of buildings, as a geometry, and certain attributes like the name of the building and what type of building it is (residential, commercial, etc.). The property/parcel dataset contains the foot-print of the property, address, rates and taxes and the dedicated uses of the property (residential, commercial, light-industrial, heavy industrial, etc.)
 
 In waste management, we would use these features to predict how much waste a property or building is producing. 
 
