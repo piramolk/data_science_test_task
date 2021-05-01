@@ -27,9 +27,9 @@ An interactive version of the map is here: https://kepler.gl/demo/map?mapUrl=htt
 
 Each dataset contains potentially useful features to predict waste generation rates. For example, the following can be calculated from the buildings dataset:
 
- * building footprint (m$2$); and
+ * building footprint (m$2$); 
  * number of floors;
- * total floor space (combination of the above two);
+ * total floor space (combination of the above two); and
  * building type.
 
 The following can be calculated from the property/parcel dataset:
