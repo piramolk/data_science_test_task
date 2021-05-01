@@ -56,7 +56,7 @@ In the case below (bottom of the figure) we can see that the property/parcel con
 
 In the case below, on the left, we can see that a single building runs across multiple parcels, so the building has to be assigned to all the parcels. Note that the building is not fully contained in the parcels.
 
-![Screenshot 2021-05-01 at 1 15 10 PM](https://user-images.githubusercontent.com/19407764/116772238-13397300-aa80-11eb-8d11-4fac4a54b893.png)
+![Screenshot 2021-05-01 at 1 14 37 PM](https://user-images.githubusercontent.com/19407764/116773442-fe60dd80-aa87-11eb-80ab-9c894d0834b9.png)
 
 In the case below, we see that there is a one-to-one match between buildings and property/parcels, but that the geometries do not line-up perfectly. In this case, each building should only be assigned to the property/parcel with which it overlaps the most.
 
@@ -69,7 +69,7 @@ There are many ways to geospatially assign buildings to properties/parcels. Each
 The task can be split in three:
 
  1. Conceptually describe and document how you would solve it, laying out the steps and calculations. You can chose one or two ways to do it, or combine different methods. Just logically evaluate and describe the benefits of the approach and where you think it will struggle with the corner cases.
- 2. Implement the approach in python as a function for reuse, and test it on the data in the `data/` folder in this repository. It contains the same data as used in the example. The most important column is the `geometry` column we need to spatially merge/join the datasets:
+ 2. Implement the approach in python using geopandas (<https://geopandas.org/index.html>) as a function for reuse, and test it on the data in the `data/` folder in this repository. It contains the same data as used in the example. The most important column is the `geometry` column we need to spatially merge/join the datasets:
    * `data/uk_land_registry_parcel_extract.geojson`: contains the property/parcel data
    * `data/uk_osm_building_extract.geojson`: contains the building data
  3. Share the results of the data as a python notebook
