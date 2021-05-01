@@ -50,7 +50,7 @@ The challenge, and task for this assignment, is to combine the features of the b
 
 ### Corner cases
 
-In the case below we can see that the property/parcel contains three buildings. All three have to be assigned to the property/parcel.
+In the case below (bottom of the figure) we can see that the property/parcel contains three buildings. All three have to be assigned to the property/parcel.
 
 ![Screenshot 2021-05-01 at 1 14 31 PM](https://user-images.githubusercontent.com/19407764/116772010-fc931c00-aa7f-11eb-8e21-fae2b4298519.png)
 
