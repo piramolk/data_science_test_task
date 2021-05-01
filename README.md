@@ -69,7 +69,7 @@ There are many ways to geospatially assign buildings to properties/parcels. Each
 The task can be split in three:
 
  1. Conceptually describe and document how you would solve it, laying out the steps and calculations. You can chose one or two ways to do it, or combine different methods. Just logically evaluate and describe the benefits of the approach and where you think it will struggle with the corner cases.
- 2. Implement the approach in python using geopandas (<https://geopandas.org/index.html>) as a function for reuse, and test it on the data in the `data/` folder in this repository. It contains the same data as used in the example. The most important column is the `geometry` column we need to spatially merge/join the datasets:
+ 2. Implement the approach in python using geopandas (<https://geopandas.org/index.html>) as a function for reuse, and test it on the data in the `data/` folder in this repository. It contains the same data as used in the example. The most important column is the `geometry` column we will use to spatially merge/join the datasets:
    * `data/uk_land_registry_parcel_extract.geojson`: contains the property/parcel data
    * `data/uk_osm_building_extract.geojson`: contains the building data
  3. Share the results of the data as a python notebook
