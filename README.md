@@ -89,3 +89,10 @@ If we use only one dataset, we will have very little data to work with and our a
 For the task, we only have two datasets. In practice we combine many more. And we don't know in advance which ones are the best to combine.
 
 Part of Waste Labs' success this far is our ability to combine these datasets to form our digital twins, which is an accurate representation of where waste is being generated and by who.
+
+## Additional material
+
+The following resources give an introduction to geospatial analysis in python:
+
+ * https://automating-gis-processes.github.io/site/index.htm, which gives a good-intro to the subject; and
+ * https://www.packtpub.com/product/mastering-geospatial-analysis-with-python/9781788293334 for a more thorough understanding.
