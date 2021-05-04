@@ -34,7 +34,7 @@ Each dataset contains potentially useful features to predict waste generation ra
 
 The following can be calculated from the property/parcel dataset:
 
- * property footprint ($$m^2$$);
+ * property footprint ($m^2$);
  * rates and taxes ($); and
  * usage type.
 
